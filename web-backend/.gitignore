@@ -1,0 +1,4 @@
+bundle.zip
+.env
+venv
+**/__pycache__/

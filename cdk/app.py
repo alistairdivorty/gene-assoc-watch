@@ -2,6 +2,7 @@
 import os
 from dotenv import load_dotenv
 import aws_cdk as cdk
+from cdk.web_app_stack import WebAppStack
 from cdk.emr_serverless_stack import EMRServerlessStack
 
 load_dotenv()
@@ -14,6 +15,7 @@ env = cdk.Environment(
     region=os.getenv("CDK_DEFAULT_REGION"),
 )
 
+WebAppStack(app, "GeneAssocWebAppStack", env=env)
 EMRServerlessStack(app, "GeneAssocEMRServerlessStack", env=env)
 
 app.synth()
