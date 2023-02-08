@@ -5,8 +5,7 @@
   - [Prerequisites](#21-prerequisites)
   - [Set Up Environment](#22-set-up-environment)
 - [Directory Structure](#3-directory-structure)
-- [Testing](#4-testing)
-- [Deployment](#5-deployment)
+- [Deployment](#4-deployment)
 
 ### 1. What It Does
 
