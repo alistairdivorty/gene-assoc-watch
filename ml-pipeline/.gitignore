@@ -1,0 +1,10 @@
+.env
+.pytest_cache
+artifacts
+assets
+data
+finetuning/lightning_logs
+finetuning/output
+finetuning/t5_pubmed_mnli
+**/__pycache__/
+**/.DS_STORE
