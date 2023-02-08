@@ -30,7 +30,8 @@ Install the Python dependencies by running `pip install -r requirements.txt` fro
 ```
 📦cdk
  ┣ 📂cdk
- ┃ ┗ 📜emr_serverless_stack.py
+ ┃ ┣ 📜emr_serverless_stack.py
+ ┃ ┗ 📜web_app_stack.py
  ┣ 📂tests
  ┣ 📜.env
  ┣ 📜.env.example

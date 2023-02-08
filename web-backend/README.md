@@ -59,4 +59,4 @@ Run `flask run` from the `web-backend` directory to start the local Flask develo
 
 ### 4. Deployment
 
-To deploy the application using the [AWS CDK Toolkit](https://docs.aws.amazon.com/cdk/v2/guide/cli.html), change the current working directory to `cdk` and run `cdk deploy WebAppStack`. See the [AWS CDK app](../README.md#6-aws-cdk-app) section of the main README for details of how to set up the AWS CDK Toolkit. The CDK app takes care of bundling the project files using the [Zappa](https://github.com/zappa/Zappa) build tool for deployment to [AWS Lambda](https://aws.amazon.com/lambda/).
+To deploy the application using the [AWS CDK Toolkit](https://docs.aws.amazon.com/cdk/v2/guide/cli.html), change the current working directory to `cdk` and run `cdk deploy WebAppStack`. See the [AWS CDK app](../README.md#4-aws-cdk-app) section of the main README for details of how to set up the AWS CDK Toolkit. The CDK app takes care of bundling the project files using the [Zappa](https://github.com/zappa/Zappa) build tool for deployment to [AWS Lambda](https://aws.amazon.com/lambda/).
