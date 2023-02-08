@@ -1,0 +1,2 @@
+pytorch-lightning==1.6.5
+transformers[torch]==4.26.0
