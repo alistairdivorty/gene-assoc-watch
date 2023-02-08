@@ -1,5 +1,7 @@
 # GeneAssocWatch
 
+This monorepo contains a machine learning pipeline for performing zero-shot extraction of gene–disease associations from medical literature, a web application for serving model inferences, and an application for provisioning the required cloud infrastructure.
+
 - [ML Pipeline](#1-ml-pipeline)
 - [Web Backend](#2-web-backend)
 - [Web Frontend](#3-web-frontend)
